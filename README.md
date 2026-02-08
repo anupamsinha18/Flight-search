@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Flight Search Module
 
-## Getting Started
+A Next.js application that implements a robust Flight Search and Listing module. It features a responsive UI, complex filtering logic, and state management using React Context.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Search Results**: Display flights parsed from a normalized JSON structure.
+- **Filtering**:
+  - Stops: Non-stop, 1 stop, 2+ stops.
+  - Price: Up to a maximum limit.
+  - Airlines: Filter by carrier.
+  - Departure Time: Buckets (Morning, Afternoon, Evening, Night).
+- **Sorting**:
+  - Price: Low to High / High to Low.
+  - Duration: Shortest / Longest.
+  - Departure: Earliest / Latest.
+- **Mock Data**: Uses `src/data/flights.json` to simulate API responses.
+- **Responsive Design**: Mobile-friendly layout with collapsible filters.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS v4
+- **State Management**: React Context API
+- **Icons**: Lucide React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup
 
-## Learn More
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Open [http://localhost:3000/flights](http://localhost:3000/flights) to view the search module.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Architecture
 
-## Deploy on Vercel
+### Data Layer
+The application normalizes the raw, nested JSON structure (Journeys -> Sectors -> Flights) into a flat array of `Flight` objects using `src/utils/flightUtils.js`. This ensures the UI components receive clean, predictable data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### State Management
+`SearchContext` (`src/context/SearchContext.js`) manages the global state for:
+- `flights`: The master list of all available flights.
+- `filteredFlights`: The subset of flights displayed based on active filters.
+- `filters`: An object tracking criteria like stops, price, and airlines.
+- `sortBy`: The current sorting preference.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Component Structure
+- `FlightSearchPage` (`src/app/flights/page.js`): The main entry point that composes the layout.
+- `SearchHeader`: Displays trip details (Source, Destination, Date).
+- `FilterSidebar`: Contains all filter controls.
+- `FlightList`: Renders the grid of `FlightCard` components and handles pagination.
+- `FlightCard`: Displays individual flight details such as airline, duration, stops, and price.
+
+## JSON Structure
+
+ The input JSON is normalized:
+- **Journeys**: Represents the full trip.
+- **Sectors**: Represents Origin-Destination combinations.
+- **Flights**: Contains flight segments and details.
+- **Fares**: Contains pricing information.
+
+The utility function `getAllFlights` traverses this structure to extract and format the data for the frontend.
+# Flight-search

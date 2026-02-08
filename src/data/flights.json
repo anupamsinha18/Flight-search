@@ -1,0 +1,1187 @@
+{
+  "searchId": "DEL-BLR-20260131-ECONOMY-1-0-0-1-O-20260131-nxnlsgve73wvg2jfzu2ercv3",
+  "provider": "CRT",
+  "success": true,
+  "result": {
+    "journeys": { "J1": { "sector": "DELBLR20260131" } },
+    "sectors": {
+      "DELBLR20260131": {
+         "DEL-AMD-AI-531-1769868900_AMD-BLR-AI-9777-1769880600": {
+          "flUnqiueId": "DEL-AMD-AI-531-1769868900_AMD-BLR-AI-9777-1769880600",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-AMD-AI-531-1769868900",
+              "fltNo": "531",
+              "aircraftType": "",
+              "airlineCode": "AI",
+              "departureAirport": {
+                "code": "DEL",
+                "terminal": { "name": "3", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T19:45:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "AMD",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T21:30:00+05:30"
+              },
+              "stops": {
+                "code": "AMD",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T21:30:00+05:30",
+                "layOverTimeInMins": 90
+              },
+              "durationInMin": 105,
+              "layoverInformation": []
+            },
+            {
+              "sequence": 2,
+              "flightId": "AMD-BLR-AI-9777-1769880600",
+              "fltNo": "9777",
+              "aircraftType": "",
+              "airlineCode": "AI",
+              "departureAirport": {
+                "code": "AMD",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T23:00:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "terminal": { "name": "2", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T01:30:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 150,
+              "layoverInformation": []
+            }
+          ],
+          "otherDetails": {
+            "stops": [
+              {
+                "code": "AMD",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T21:30:00+05:30",
+                "layOverTimeInMins": 90
+              }
+            ],
+            "lowestPrice": "13366.54",
+            "departureTime": "2026-01-31T19:45:00+05:30",
+            "airline": ["AI"],
+            "aircraftType": [],
+            "airportCode": "DEL",
+            "totalStops": 1
+          },
+          "fares": [
+            {
+              "fareId": "REGULAR_FARE-ECONOMY-RP-SL1YXYII__DEL-AMD-AI-531-1769868900_AMD-BLR-AI-9777-1769880600",
+              "fareGroup": "REGULAR_FARE",
+              "baggages": {
+                "0": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ],
+                "1": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ]
+              },
+              "paxFare": [
+                {
+                  "paxType": "ADT",
+                  "paxCount": 1,
+                  "priceComponents": [
+                    {
+                      "category": "TAX",
+                      "code": "AIRLINE-MSC",
+                      "amount": 388,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "YR",
+                      "amount": 340,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "K3",
+                      "amount": 609,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "BF",
+                      "code": "",
+                      "amount": 11832,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "MKP",
+                      "code": "CT-MKP",
+                      "amount": 197.54,
+                      "currency": "INR"
+                    }
+                  ]
+                }
+              ],
+              "benefits": [
+                {
+                  "benefitType": "SEAT",
+                  "value": "FREE",
+                  "description": "Free Seat",
+                  "shortDescription": "Free Seat",
+                  "amount": 0,
+                  "currency": ""
+                },
+                {
+                  "benefitType": "MEAL",
+                  "value": "FREE",
+                  "description": "Free Meal",
+                  "shortDescription": "Free Meal",
+                  "amount": 0,
+                  "currency": ""
+                }
+              ],
+              "price": {
+                "CTC": "13169.0",
+                "SUPPLIER": "AMADEUS",
+                "pricePerAdult": "13366.54"
+              },
+              "transitVisaRequired": false,
+              "refundable": true,
+              "checkInBaggageAllowed": true,
+              "fareIdentifiers": {
+                "cabinType": "ECONOMY",
+                "fareClass": "RP",
+                "fareBasisCode": "SL1YXYII",
+                "rbd": "S",
+                "availableSeatCount": 9,
+                "brandName": "ECO VALUE",
+                "brand": "ECO VALUE"
+              }
+            }
+          ]
+        },
+        "DEL-PNQ-QP-1809-1769863200_PNQ-BLR-QP-1318-1769880900": {
+          "flUnqiueId": "DEL-PNQ-QP-1809-1769863200_PNQ-BLR-QP-1318-1769880900",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-PNQ-QP-1809-1769863200",
+              "fltNo": "1809",
+              "aircraftType": "7YL null",
+              "airlineCode": "QP",
+              "departureAirport": {
+                "code": "DEL",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T18:10:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "PNQ",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T20:20:00+05:30"
+              },
+              "stops": {
+                "code": "PNQ",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T20:20:00+05:30",
+                "layOverTimeInMins": 165
+              },
+              "durationInMin": 130,
+              "layoverInformation": []
+            },
+            {
+              "sequence": 2,
+              "flightId": "PNQ-BLR-QP-1318-1769880900",
+              "fltNo": "1318",
+              "aircraftType": "7MA null",
+              "airlineCode": "QP",
+              "departureAirport": {
+                "code": "PNQ",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T23:05:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T00:45:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 100,
+              "layoverInformation": []
+            }
+          ],
+          "otherDetails": {
+            "stops": [
+              {
+                "code": "PNQ",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T20:20:00+05:30",
+                "layOverTimeInMins": 165
+              }
+            ],
+            "lowestPrice": "18234.48",
+            "departureTime": "2026-01-31T18:10:00+05:30",
+            "airline": ["QP"],
+            "aircraftType": ["7YL null", "7MA null"],
+            "airportCode": "DEL",
+            "totalStops": 1
+          },
+          "fares": [
+            {
+              "fareId": "REGULAR_FARE-ECONOMY-EC-F0O7RBIX__DEL-PNQ-QP-1809-1769863200_PNQ-BLR-QP-1318-1769880900",
+              "fareGroup": "REGULAR_FARE",
+              "baggages": {
+                "0": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ],
+                "1": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ]
+              },
+              "paxFare": [
+                {
+                  "paxType": "ADT",
+                  "paxCount": 1,
+                  "priceComponents": [
+                    {
+                      "category": "BF",
+                      "code": "",
+                      "amount": 15616,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "AIRLINE-MSC",
+                      "amount": 2349,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "MKP",
+                      "code": "CT-MKP",
+                      "amount": 269.48,
+                      "currency": "INR"
+                    }
+                  ]
+                }
+              ],
+              "benefits": [
+                {
+                  "benefitType": "SEAT",
+                  "value": "PAID",
+                  "description": "Paid",
+                  "shortDescription": "Paid Seat",
+                  "amount": 0,
+                  "currency": ""
+                },
+                {
+                  "benefitType": "MEAL",
+                  "value": "PAID",
+                  "description": "Paid",
+                  "shortDescription": "Paid Meal",
+                  "amount": 0,
+                  "currency": ""
+                }
+              ],
+              "price": {
+                "CTC": "17965.0",
+                "SUPPLIER": "AKASA_AIR",
+                "pricePerAdult": "18234.48"
+              },
+              "transitVisaRequired": false,
+              "refundable": true,
+              "checkInBaggageAllowed": true,
+              "fareIdentifiers": {
+                "cabinType": "ECONOMY",
+                "fareClass": "EC",
+                "fareBasisCode": "F0O7RBIX",
+                "rbd": "F",
+                "availableSeatCount": 2,
+                "brandName": "SAVER",
+                "brand": "SAVER"
+              }
+            }
+          ]
+        },
+        "DEL-MAA-AI-540-1769873400_MAA-BLR-AI-2823-1769940300": {
+          "flUnqiueId": "DEL-MAA-AI-540-1769873400_MAA-BLR-AI-2823-1769940300",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-MAA-AI-540-1769873400",
+              "fltNo": "540",
+              "aircraftType": "",
+              "airlineCode": "AI",
+              "departureAirport": {
+                "code": "DEL",
+                "terminal": { "name": "3", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T21:00:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "MAA",
+                "terminal": { "name": "4", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T23:50:00+05:30"
+              },
+              "stops": {
+                "code": "MAA",
+                "terminal": { "name": "4", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T23:50:00+05:30",
+                "layOverTimeInMins": 945
+              },
+              "durationInMin": 170,
+              "layoverInformation": []
+            },
+            {
+              "sequence": 2,
+              "flightId": "MAA-BLR-AI-2823-1769940300",
+              "fltNo": "2823",
+              "aircraftType": "",
+              "airlineCode": "AI",
+              "departureAirport": {
+                "code": "MAA",
+                "terminal": { "name": "4", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T15:35:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "terminal": { "name": "2", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T16:35:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 60,
+              "layoverInformation": []
+            }
+          ],
+          "otherDetails": {
+            "stops": [
+              {
+                "code": "MAA",
+                "terminal": { "name": "4", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T23:50:00+05:30",
+                "layOverTimeInMins": 945
+              }
+            ],
+            "lowestPrice": "10933.58",
+            "departureTime": "2026-01-31T21:00:00+05:30",
+            "airline": ["AI"],
+            "aircraftType": [],
+            "airportCode": "DEL",
+            "totalStops": 1
+          },
+          "fares": [
+            {
+              "fareId": "REGULAR_FARE-ECONOMY-RP-GU1YXSII__DEL-MAA-AI-540-1769873400_MAA-BLR-AI-2823-1769940300",
+              "fareGroup": "REGULAR_FARE",
+              "baggages": {
+                "0": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ],
+                "1": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ]
+              },
+              "paxFare": [
+                {
+                  "paxType": "ADT",
+                  "paxCount": 1,
+                  "priceComponents": [
+                    {
+                      "category": "TAX",
+                      "code": "AIRLINE-MSC",
+                      "amount": 388,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "YR",
+                      "amount": 340,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "K3",
+                      "amount": 495,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "BF",
+                      "code": "",
+                      "amount": 9549,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "MKP",
+                      "code": "CT-MKP",
+                      "amount": 161.58,
+                      "currency": "INR"
+                    }
+                  ]
+                }
+              ],
+              "benefits": [
+                {
+                  "benefitType": "SEAT",
+                  "value": "FREE",
+                  "description": "Free Seat",
+                  "shortDescription": "Free Seat",
+                  "amount": 0,
+                  "currency": ""
+                },
+                {
+                  "benefitType": "MEAL",
+                  "value": "FREE",
+                  "description": "Free Meal",
+                  "shortDescription": "Free Meal",
+                  "amount": 0,
+                  "currency": ""
+                }
+              ],
+              "price": {
+                "CTC": "10772.0",
+                "SUPPLIER": "AMADEUS",
+                "pricePerAdult": "10933.58"
+              },
+              "transitVisaRequired": false,
+              "refundable": true,
+              "checkInBaggageAllowed": true,
+              "fareIdentifiers": {
+                "cabinType": "ECONOMY",
+                "fareClass": "RP",
+                "fareBasisCode": "GU1YXSII",
+                "rbd": "G",
+                "availableSeatCount": 9,
+                "brandName": "ECO VALUE",
+                "brand": "ECO VALUE"
+              }
+            }
+          ]
+        },
+        "DEL-BOM-6E-2327-1769862600_BOM-BLR-6E-5322-1769884500": {
+          "flUnqiueId": "DEL-BOM-6E-2327-1769862600_BOM-BLR-6E-5322-1769884500",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-BOM-6E-2327-1769862600",
+              "fltNo": "2327",
+              "aircraftType": "",
+              "airlineCode": "6E",
+              "departureAirport": {
+                "code": "DEL",
+                "terminal": { "name": "2", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T18:00:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BOM",
+                "terminal": { "name": "2", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T20:25:00+05:30"
+              },
+              "stops": {
+                "code": "BOM",
+                "terminal": { "name": "2", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T20:25:00+05:30",
+                "layOverTimeInMins": 220
+              },
+              "durationInMin": 145,
+              "layoverInformation": []
+            },
+            {
+              "sequence": 2,
+              "flightId": "BOM-BLR-6E-5322-1769884500",
+              "fltNo": "5322",
+              "aircraftType": "",
+              "airlineCode": "6E",
+              "departureAirport": {
+                "code": "BOM",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T00:05:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T01:55:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 110,
+              "layoverInformation": []
+            }
+          ],
+          "otherDetails": {
+            "stops": [
+              {
+                "code": "BOM",
+                "terminal": { "name": "2", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T20:25:00+05:30",
+                "layOverTimeInMins": 220
+              }
+            ],
+            "lowestPrice": "7283.64",
+            "departureTime": "2026-01-31T18:00:00+05:30",
+            "airline": ["6E"],
+            "aircraftType": [],
+            "airportCode": "DEL",
+            "totalStops": 1
+          },
+          "fares": [
+            {
+              "fareId": "FARE_FAMILY-ECONOMY-O-RLIP__DEL-BOM-6E-2327-1769862600_BOM-BLR-6E-5322-1769884500",
+              "fareGroup": "FARE_FAMILY",
+              "baggages": {
+                "0": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 20, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ],
+                "1": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 20, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ]
+              },
+              "paxFare": [
+                {
+                  "paxType": "ADT",
+                  "paxCount": 1,
+                  "priceComponents": [
+                    {
+                      "category": "BF",
+                      "code": "",
+                      "amount": 13745,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "AIRLINE-MSC",
+                      "amount": 1738,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "MKP",
+                      "code": "CT-MKP",
+                      "amount": 232.25,
+                      "currency": "INR"
+                    }
+                  ]
+                }
+              ],
+              "benefits": [
+                {
+                  "benefitType": "SEAT",
+                  "value": "FREE",
+                  "description": "Free",
+                  "shortDescription": "Free Seat",
+                  "amount": 0,
+                  "currency": ""
+                },
+                {
+                  "benefitType": "MEAL",
+                  "value": "FREE",
+                  "description": "Free",
+                  "shortDescription": "Free Meal",
+                  "amount": 0,
+                  "currency": ""
+                }
+              ],
+              "price": {
+                "CTC": "15483.0",
+                "SUPPLIER": "INDIGO",
+                "pricePerAdult": "15715.25"
+              },
+              "transitVisaRequired": false,
+              "refundable": true,
+              "checkInBaggageAllowed": true,
+              "fareIdentifiers": {
+                "cabinType": "ECONOMY",
+                "fareClass": "O",
+                "fareBasisCode": "RLIP",
+                "rbd": "R",
+                "availableSeatCount": 15,
+                "brandName": "SUPER6E",
+                "brand": "SUPER6E"
+              }
+            }
+          ]
+        },
+        "DEL-HYD-AI-2871-1769870400_HYD-BLR-AI-524-1769923800": {
+          "flUnqiueId": "DEL-HYD-AI-2871-1769870400_HYD-BLR-AI-524-1769923800",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-HYD-AI-2871-1769870400",
+              "fltNo": "2871",
+              "aircraftType": "",
+              "airlineCode": "AI",
+              "departureAirport": {
+                "code": "DEL",
+                "terminal": { "name": "3", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T20:10:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "HYD",
+                "terminal": { "name": "", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T22:20:00+05:30"
+              },
+              "stops": {
+                "code": "HYD",
+                "terminal": { "name": "", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T22:20:00+05:30",
+                "layOverTimeInMins": 760
+              },
+              "durationInMin": 130,
+              "layoverInformation": []
+            },
+            {
+              "sequence": 2,
+              "flightId": "HYD-BLR-AI-524-1769923800",
+              "fltNo": "524",
+              "aircraftType": "",
+              "airlineCode": "AI",
+              "departureAirport": {
+                "code": "HYD",
+                "terminal": { "name": "", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T11:00:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "terminal": { "name": "2", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-02-01T12:10:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 70,
+              "layoverInformation": []
+            }
+          ],
+          "otherDetails": {
+            "stops": [
+              {
+                "code": "HYD",
+                "terminal": { "name": "", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T22:20:00+05:30",
+                "layOverTimeInMins": 760
+              }
+            ],
+            "lowestPrice": "13808.06",
+            "departureTime": "2026-01-31T20:10:00+05:30",
+            "airline": ["AI"],
+            "aircraftType": [],
+            "airportCode": "DEL",
+            "totalStops": 1
+          },
+          "fares": [
+            {
+              "fareId": "REGULAR_FARE-ECONOMY-RP-VU1YXSII__DEL-HYD-AI-2871-1769870400_HYD-BLR-AI-524-1769923800",
+              "fareGroup": "REGULAR_FARE",
+              "baggages": {
+                "0": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ],
+                "1": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ]
+              },
+              "paxFare": [
+                {
+                  "paxType": "ADT",
+                  "paxCount": 1,
+                  "priceComponents": [
+                    {
+                      "category": "TAX",
+                      "code": "AIRLINE-MSC",
+                      "amount": 388,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "YR",
+                      "amount": 340,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "K3",
+                      "amount": 630,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "BF",
+                      "code": "",
+                      "amount": 12246,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "MKP",
+                      "code": "CT-MKP",
+                      "amount": 204.06,
+                      "currency": "INR"
+                    }
+                  ]
+                }
+              ],
+              "benefits": [
+                {
+                  "benefitType": "SEAT",
+                  "value": "FREE",
+                  "description": "Free Seat",
+                  "shortDescription": "Free Seat",
+                  "amount": 0,
+                  "currency": ""
+                },
+                {
+                  "benefitType": "MEAL",
+                  "value": "FREE",
+                  "description": "Free Meal",
+                  "shortDescription": "Free Meal",
+                  "amount": 0,
+                  "currency": ""
+                }
+              ],
+              "price": {
+                "CTC": "13604.0",
+                "SUPPLIER": "AMADEUS",
+                "pricePerAdult": "13808.06"
+              },
+              "transitVisaRequired": false,
+              "refundable": true,
+              "checkInBaggageAllowed": true,
+              "fareIdentifiers": {
+                "cabinType": "ECONOMY",
+                "fareClass": "RP",
+                "fareBasisCode": "VU1YXSII",
+                "rbd": "V",
+                "availableSeatCount": 9,
+                "brandName": "ECO VALUE",
+                "brand": "ECO VALUE"
+              }
+            }
+          ]
+        },
+        "DEL-BOM-QP-1820-1769860800_BOM-BLR-QP-1367-1769877000": {
+          "flUnqiueId": "DEL-BOM-QP-1820-1769860800_BOM-BLR-QP-1367-1769877000",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-BOM-QP-1820-1769860800",
+              "fltNo": "1820",
+              "aircraftType": "7MA null",
+              "airlineCode": "QP",
+              "departureAirport": {
+                "code": "DEL",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T17:30:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BOM",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T19:50:00+05:30"
+              },
+              "stops": {
+                "code": "BOM",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T19:50:00+05:30",
+                "layOverTimeInMins": 130
+              },
+              "durationInMin": 140,
+              "layoverInformation": []
+            },
+            {
+              "sequence": 2,
+              "flightId": "BOM-BLR-QP-1367-1769877000",
+              "fltNo": "1367",
+              "aircraftType": "7BH null",
+              "airlineCode": "QP",
+              "departureAirport": {
+                "code": "BOM",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T22:00:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T23:50:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 110,
+              "layoverInformation": []
+            }
+          ],
+          "otherDetails": {
+            "stops": [
+              {
+                "code": "BOM",
+                "terminal": { "name": "1", "gate": "" },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T19:50:00+05:30",
+                "layOverTimeInMins": 130
+              }
+            ],
+            "lowestPrice": "10520.48",
+            "departureTime": "2026-01-31T17:30:00+05:30",
+            "airline": ["QP"],
+            "aircraftType": ["7MA null", "7BH null"],
+            "airportCode": "DEL",
+            "totalStops": 1
+          },
+          "fares": [
+            {
+              "fareId": "FARE_FAMILY-ECONOMY-AV-U8O7VBIX__DEL-BOM-QP-1820-1769860800_BOM-BLR-QP-1367-1769877000",
+              "fareGroup": "FARE_FAMILY",
+              "baggages": {
+                "0": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ],
+                "1": [
+                  {
+                    "type": "BAGGAGE_CABIN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                    ]
+                  },
+                  {
+                    "type": "BAGGAGE_CHECK_IN",
+                    "allowedBaggages": [
+                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                    ]
+                  }
+                ]
+              },
+              "paxFare": [
+                {
+                  "paxType": "ADT",
+                  "paxCount": 1,
+                  "priceComponents": [
+                    {
+                      "category": "BF",
+                      "code": "",
+                      "amount": 10185,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "TAX",
+                      "code": "AIRLINE-MSC",
+                      "amount": 1659,
+                      "currency": "INR"
+                    },
+                    {
+                      "category": "MKP",
+                      "code": "CT-MKP",
+                      "amount": 177.66,
+                      "currency": "INR"
+                    }
+                  ]
+                }
+              ],
+              "benefits": [
+                {
+                  "benefitType": "SEAT",
+                  "value": "FREE",
+                  "description": "Free",
+                  "shortDescription": "Free Seat",
+                  "amount": 0,
+                  "currency": ""
+                },
+                {
+                  "benefitType": "MEAL",
+                  "value": "FREE",
+                  "description": "Free",
+                  "shortDescription": "Free Meal",
+                  "amount": 0,
+                  "currency": ""
+                }
+              ],
+              "price": {
+                "CTC": "11844.0",
+                "SUPPLIER": "AKASA_AIR",
+                "pricePerAdult": "12021.66"
+              },
+              "transitVisaRequired": false,
+              "refundable": true,
+              "checkInBaggageAllowed": true,
+              "fareIdentifiers": {
+                "cabinType": "ECONOMY",
+                "fareClass": "AV",
+                "fareBasisCode": "U8O7VBIX",
+                "rbd": "U8",
+                "availableSeatCount": 4,
+                "brandName": "FLEXI FARE",
+                "brand": "FLEXI FARE"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "searchQuery": {
+      "type": "O",
+      "className": "ECONOMY",
+      "paxFareType": "STUDENT",
+      "ADT": "1",
+      "CHD": "0",
+      "INF": "0",
+      "noOfSegments": "1",
+      "origin": "DEL",
+      "originCountry": "IN",
+      "destination": "BLR",
+      "destinationCountry": "IN",
+      "departureDate": "2026-01-31",
+      "returnDate": "2026-01-31"
+    },
+    "metaData": {
+      "airportDetail": {
+        "BOM": {
+          "code": "BOM",
+          "name": "Chatrapati Shivaji Airport",
+          "city": "Mumbai",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "PAT": {
+          "code": "PAT",
+          "name": "Lok Nayak Jayaprakash",
+          "city": "Patna",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "BBI": {
+          "code": "BBI",
+          "name": "Biju Patnaik",
+          "city": "Bhubaneswar",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "BLR": {
+          "code": "BLR",
+          "name": "Kempegowda International Airport",
+          "city": "Bangalore",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "DEL": {
+          "code": "DEL",
+          "name": "Indira Gandhi Airport",
+          "city": "New Delhi",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "MAA": {
+          "code": "MAA",
+          "name": "Chennai Airport",
+          "city": "Chennai",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "LKO": {
+          "code": "LKO",
+          "name": "Amausi",
+          "city": "Lucknow",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "GOX": {
+          "code": "GOX",
+          "name": "Manohar International Airport",
+          "city": "Goa",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "PNQ": {
+          "code": "PNQ",
+          "name": "Lohegaon",
+          "city": "Pune",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "HYD": {
+          "code": "HYD",
+          "name": "Rajiv Gandhi International",
+          "city": "Hyderabad",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "CCU": {
+          "code": "CCU",
+          "name": "Netaji Subhas Chandra Bose Airport",
+          "city": "Kolkata",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "IXC": {
+          "code": "IXC",
+          "name": "Chandigarh",
+          "city": "Chandigarh",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "AMD": {
+          "code": "AMD",
+          "name": "Sardar Vallabh Bhai Patel",
+          "city": "Ahmedabad",
+          "country": "India",
+          "countryCode": "IN"
+        },
+        "TRV": {
+          "code": "TRV",
+          "name": "Thiruvananthapuram",
+          "city": "Trivandrum",
+          "country": "India",
+          "countryCode": "IN"
+        }
+      },
+      "airlineDetail": {
+        "AI": { "code": "AI", "name": "Air India" },
+        "SG": { "code": "SG", "name": "SpiceJet" },
+        "6E": { "code": "6E", "name": "IndiGo" },
+        "QP": { "code": "QP", "name": "Akasa Air" },
+        "IX": { "code": "IX", "name": "Air India Express" }
+      }
+    },
+    "provider": "CRT"
+  }
+}
