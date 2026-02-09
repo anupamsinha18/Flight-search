@@ -1,7 +1,7 @@
 "use client";
 
-const FlightCard = ({ flight }) => {
-        const formatTime = (timeStr) => {
+const FlightCard = ({ flight, index = 0 }) => {
+    const formatTime = (timeStr) => {
         if (!timeStr) return '';
         const date = new Date(timeStr);
         return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
@@ -22,13 +22,16 @@ const FlightCard = ({ flight }) => {
     const lastFlight = flights[flights.length - 1];
     const airlineCode = firstFlight.airlineCode;
     const displayPrice = otherDetails.lowestPrice;
-    const stopsCount = flights.length - 1; 
+    const stopsCount = flights.length - 1;
 
 
     const airlineLogoUrl = `https://placehold.co/50x50/2563eb/white?text=${airlineCode}`;
 
     return (
-        <div className="glass-card rounded-3xl p-6 mb-6 hover:shadow-2xl transition-all duration-300 hover:scale-[1.01] group border border-white/60 relative overflow-hidden">
+        <div
+            className="glass-card rounded-3xl p-6 mb-6 hover:shadow-2xl transition-all duration-300 hover:scale-[1.01] group border border-white/60 relative overflow-hidden animate-fade-in"
+            style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'both' }}
+        >
 
             <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl -z-10 group-hover:bg-blue-500/10 transition-colors"></div>
 

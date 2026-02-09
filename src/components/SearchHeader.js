@@ -30,25 +30,30 @@ const SearchHeader = () => {
                             </div>
                         </div>
 
+                        {/* Mobile Divider & Compact Info */}
                         <div className="h-8 w-[1px] bg-gray-300 mx-2 hidden md:block"></div>
+                        <div className="md:hidden w-full h-[1px] bg-gray-100 my-2"></div>
 
-                        {/* Date */}
-                        <div className="flex flex-col hidden md:flex">
-                            <span className="text-xs text-gray-500 font-semibold uppercase tracking-wider">Departure</span>
-                            <div className="flex items-center gap-1.5">
-                                <Calendar className="w-4 h-4 text-indigo-500" />
-                                <span className="text-sm font-semibold text-slate-700">31 Jan 2026</span>
+                        {/* Date & Passengers - Responsive */}
+                        <div className="flex flex-row md:flex-col justify-between md:justify-start w-full md:w-auto items-center md:items-start gap-4 md:gap-0">
+                            {/* Date */}
+                            <div className="flex flex-col">
+                                <span className="text-xs text-gray-500 font-semibold uppercase tracking-wider hidden md:block">Departure</span>
+                                <div className="flex items-center gap-1.5">
+                                    <Calendar className="w-4 h-4 text-indigo-500" />
+                                    <span className="text-sm font-semibold text-slate-700">31 Jan 2026</span>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="h-8 w-[1px] bg-gray-300 mx-2 hidden md:block"></div>
+                            <div className="h-8 w-[1px] bg-gray-300 mx-2 hidden md:block"></div>
 
-                        {/* Passengers */}
-                        <div className="flex flex-col hidden md:flex">
-                            <span className="text-xs text-gray-500 font-semibold uppercase tracking-wider">Travelers</span>
-                            <div className="flex items-center gap-1.5">
-                                <User className="w-4 h-4 text-indigo-500" />
-                                <span className="text-sm font-semibold text-slate-700">1 Adult, Economy</span>
+                            {/* Passengers */}
+                            <div className="flex flex-col">
+                                <span className="text-xs text-gray-500 font-semibold uppercase tracking-wider hidden md:block">Travelers</span>
+                                <div className="flex items-center gap-1.5">
+                                    <User className="w-4 h-4 text-indigo-500" />
+                                    <span className="text-sm font-semibold text-slate-700">1 Adult, Economy</span>
+                                </div>
                             </div>
                         </div>
                     </div>

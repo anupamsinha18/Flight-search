@@ -75,8 +75,8 @@ const FlightList = () => {
 
             {/* List */}
             <div className="space-y-4">
-                {currentItems.map((flight) => (
-                    <FlightCard key={flight.id} flight={flight} />
+                {currentItems.map((flight, index) => (
+                    <FlightCard key={flight.id} flight={flight} index={index} />
                 ))}
             </div>
 
